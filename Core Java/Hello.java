@@ -37,5 +37,46 @@ System.out.println(e);
 long f=303030;
 System.out.println(f);
 
+// Widening Typecast
+int myInt=99;
+double hello=myInt;
+System.out.println(hello);
+
+// Narrowing
+double dolor=99.90;
+int myInt1=(int)dolor;
+System.out.println(myInt1);
+
+// Conversion
+String s3=String.valueOf(myInt1);
+System.out.println(myInt+" "+(s3.getClass().getSimpleName()));
+System.out.println(s3+1);
+
+// String to Integer Or Double
+int i=Integer.parseInt(s3);
+double dolor2=Double.parseDouble(s3);
+System.out.println(i);
+System.out.println(dolor2);
+
+// Without using Scanner class
+String name=System.console().readLine();
+System.out.println(name);
+
+// String and its method
+String fName=System.console().readLine();
+String LName=System.console().readLine();
+System.out.println(fName+" "+LName);
+
+System.out.println(fName.length());
+System.out.println(fName.toUpperCase());
+
+System.out.println(fName.indexOf("Raja"));
+System.out.println(fName.contains("Raja"));
+
+System.out.println(fName.charAt(3));
+
+System.out.println(fName.endsWith("r"));
+
+System.out.println(fName.indexOf(LName));
 }
 }
