@@ -78,5 +78,21 @@ System.out.println(fName.charAt(3));
 System.out.println(fName.endsWith("r"));
 
 System.out.println(fName.indexOf(LName));
+
+// Math functions
+
+int num=10,num2=20;
+
+System.out.println(Math.min(num, num2));
+System.out.println(Math.max(num, num2));
+System.out.println(Math.sqrt(num));
+num=-40;
+System.out.println(Math.abs(num));
+
+System.out.println(Math.random());
+System.out.println(5+(10-5)*(Math.random()));
+
+
+
 }
 }
