@@ -1,0 +1,27 @@
+//Write a program to check if a given integer number is Positive, Negative, or Zero.
+
+import java.util.Scanner;
+
+public class Assignment01 {
+
+	public static void main(String[] args) {
+ 
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("Enter the number:");
+		int number = scan.nextInt();
+		
+		if(number > 0) {
+			System.out.println("Number is Positive");
+		}
+		else if(number < 0) {
+			System.out.println("Number is Negative");
+		}
+		else {
+			System.out.println("Number is Zero");
+		}
+		scan.close();
+		
+	}
+
+}
