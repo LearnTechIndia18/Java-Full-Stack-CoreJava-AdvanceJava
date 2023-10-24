@@ -85,6 +85,7 @@ package com.w3epic.wiprotraining.assignment1;
 public class LibraryInterfaceDemo {
 
 	public static void main(String[] args) {
+		
 		// Test case #1:
 		KidUsers kidUsers = new KidUsers();
 		
